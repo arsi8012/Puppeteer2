@@ -1,4 +1,4 @@
-const { clickElement, getText, putText } = require("./lib/commands.js");
+const { clickElement, getText, putText } = require("../Puppeteer2/lib/commands.js");
 const { generateText } = require("../Puppeteer2/lib/util.js");
 
 let page;
